@@ -6,9 +6,9 @@ float flying = 0;
 float terrain[][];
 
 void setup() {
-  size(displayWidth, displayHeight, P3D);
+  size(1000, 1000, P3D);
   surface.setTitle("Terrain3D");
-  //surface.setLocation(0, 0);
+  surface.setLocation(0, 0);
   w = width + 500;
   h = height + 400;
   cols = w / scl;
